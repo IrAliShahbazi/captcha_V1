@@ -1,2 +1,4 @@
 # captcha_V1
- simple catcha witth javascript ,html ,css
+english: <br>
+ simple catcha witth javascript ,html ,css <br>
+persian: <br>
