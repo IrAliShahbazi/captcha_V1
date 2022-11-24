@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>catcha V1</title>
+    <script src="JS/index.js"></script>
+    <style>
+        img{
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+<img id="img1" src="FILES/one.png"> <br>
+<input id="input" type="text" placeholder="enter number in photo">
+<button id="b1">check</button>
+<h1>GitHub:<a style="text-decoration: none" href="https://github.com/IrAliShahbazi">https://github.com/IrAliShahbazi</a></h1>
+<script>
+    document.getElementById("img1").src=photos();
+    document.getElementById("b1").onclick=function onclick(event){
+        var innumber=document.getElementById("input").value;
+        check(innumber);
+    }
+</script>
+</body>
+</html>
